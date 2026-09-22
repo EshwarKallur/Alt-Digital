@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" role="img" aria-labelledby="title desc">
+  <title id="title">Digital technology team collaborating</title>
+  <desc id="desc">Three colleagues working together in a warm modern office.</desc>
+  <rect width="800" height="700" rx="28" fill="#e8dfd1"/>
+  <rect x="55" y="70" width="690" height="520" rx="18" fill="#f7f2e9"/>
+  <rect x="470" y="125" width="205" height="155" rx="8" fill="#172d3d"/>
+  <rect x="488" y="143" width="169" height="119" rx="4" fill="#1f7897"/>
+  <circle cx="530" cy="180" r="22" fill="#f69100" opacity=".9"/>
+  <path d="M505 236c27-45 53-55 81-18 18-25 37-25 57 7" fill="none" stroke="#b9e3e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="196" cy="255" r="65" fill="#8d5a3d"/>
+  <path d="M133 253c8-70 114-82 132 0-24-25-46-35-72-30-24 5-42 18-60 30Z" fill="#30231d"/>
+  <path d="M104 585c5-145 42-214 98-214 67 0 103 69 111 214Z" fill="#c69d76"/>
+  <path d="M198 384c-33 40-42 122-31 201h120c-9-98-24-170-89-201Z" fill="#cdb293"/>
+  <rect x="152" y="458" width="195" height="114" rx="10" fill="#77563d" transform="rotate(-8 152 458)"/>
+  <rect x="169" y="468" width="161" height="85" rx="5" fill="#9d7954" transform="rotate(-8 169 468)"/>
+  <circle cx="405" cy="223" r="57" fill="#b87852"/>
+  <path d="M351 225c0-87 118-95 125-4-28-30-59-36-91-20-13 7-24 15-34 24Z" fill="#35251f"/>
+  <path d="M326 590c10-143 32-224 81-224 67 0 101 83 111 224Z" fill="#6d8790"/>
+  <rect x="367" y="432" width="78" height="110" rx="20" fill="#d8e1df"/>
+  <path d="M385 495h45" stroke="#f69100" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="602" cy="331" r="61" fill="#d49b75"/>
+  <path d="M541 331c6-79 126-88 127 3-25-29-53-42-87-33-17 4-29 15-40 30Z" fill="#6f4434"/>
+  <path d="M511 590c7-128 31-188 91-188 61 0 99 65 106 188Z" fill="#8ea9b0"/>
+  <path d="M580 422c-19 57-17 103-10 168" fill="none" stroke="#f7f2e9" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="615" cy="500" r="8" fill="#f69100"/>
+  <path d="M90 590h620" stroke="#d2c1aa" stroke-width="8" stroke-linecap="round"/>
+</svg>

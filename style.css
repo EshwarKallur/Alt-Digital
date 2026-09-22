@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Manrope", Arial, sans-serif;
+    color: #161616;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: none;
+    z-index: 100;
+    color: white;
+    transition: 0.3s ease;
+}
+.header.scrolled {
+    background-color: #fffefc;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+    color: #161616;
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo span {
+    color: #f69100;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.navigation a {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.navigation a:hover {
+    color: #f69100;
+}
+.nav-button {
+    background-color: #f69100;
+    color: white !important;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+.hero {
+    width: 100%;
+    height: 800px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image:
+        linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.15)
+        ),
+        url("assets/SF-partner-banner-image.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.hero-content {
+    width: 100%;
+    padding: 0 5%;
+    margin: auto;
+    color: white;
+}
+.hero-tag {
+    color: #f69100;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.hero h1 {
+    font-size: 60px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+.hero h1 span {
+    display: block;
+    white-space: nowrap;
+    color: #f69100;
+}
+.hero-description {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.primary {
+    background-color: #f69100;
+    color: white;
+}
+.secondary {
+    border: 1px solid white;
+    color: white;
+}
+.secondary:hover {
+    background-color: white;
+    color: #161616;
+}
+.company-stats {
+    width: 100%;
+    padding: 45px 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    background-color: #f2eee6;
+    border-top: 1px solid #e5ded2;
+    border-bottom: 1px solid #e5ded2;
+}
+.stat {
+    min-height: 125px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #242a33;
+}
+.stat strong {
+    color: #f69100;
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+.stat span {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.35;
+}
+.why-choose-us {
+    padding: 100px 5%;
+    background-color: #fff8ed;
+}
+.section-heading {
+    width: 100%;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+.section-tag {
+    color: #f69100;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.section-heading h2 {
+    color: #161616;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+.section-description {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.benefits {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.benefit {
+    padding: 30px;
+    background-color: white;
+    border-top: 3px solid #f69100;
+}
+.benefit-number {
+    color: #f69100;
+    font-size: 14px;
+    font-weight: 800;
+}
+.benefit h3 {
+    color: #161616;
+    font-size: 21px;
+    margin: 22px 0 12px;
+}
+.benefit p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.experts-section {
+    width: 100%;
+    margin: auto;
+    padding: 100px 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 45px;
+}
+.experts-image img {
+    width: 100%;
+    height: 560px;
+    display: block;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: center 60%;
+}
+.experts-content h2 {
+    color: #161616;
+    font-size: 54px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+.experience-line {
+    color: #161616;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 22px;
+}
+.experience-line strong {
+    color: #f69100;
+    font-size: 26px;
+    margin-right: 6px;
+}
+.experts-content > p:not(.section-tag):not(.experience-line) {
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.read-more {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 12px 25px;
+    border: 3px solid #f69100;
+    border-radius: 30px;
+    color: white;
+    background-color: #f69100;
+    font-size: 16px;
+    font-weight: 800;
+}
+.read-more:hover {
+    color: #f69100;
+    background-color: white;
+}
+@media (max-width: 900px) {
+    .hero {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+    .hero h1 {
+        font-size: 50px;
+    }
+    .benefits {
+        grid-template-columns: 1fr;
+    }
+    .company-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .experts-section {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 600px) {
+    .hero {
+        height: 650px;
+        background-position: center;
+    }
+    .hero-content {
+        width: 90%;
+    }
+    .hero h1 {
+        font-size: 40px;
+    }
+    .hero h1 span {
+        white-space: normal;
+    }
+    .hero-description {
+        font-size: 16px;
+    }
+    .why-choose-us {
+        padding: 70px 5%;
+    }
+    .company-stats {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 30px 5%;
+    }
+    .stat {
+        min-height: 105px;
+    }
+    .stat strong {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .section-heading h2 {
+        font-size: 32px;
+    }
+    .experts-section {
+        padding: 70px 5%;
+    }
+    .experts-content h2 {
+        font-size: 40px;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        max-width: 220px;
+    }
+    .button {
+        text-align: center;
+    }
+}
